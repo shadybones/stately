@@ -1,0 +1,32 @@
+{
+  "name": "stately-js",
+  "version": "0.1.1",
+  "description": "Central repository for application wide state handlers. Does not control state, simply notifies listeners of changes. You register listeners for boolean state values, and when the listened for state evaluates to true, listeners are dispatched with current state data.",
+  "main": "dist/Stately.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadybones/stately.git"
+  },
+  "keywords": [
+    "state",
+    "state management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadybones/stately/issues"
+  },
+  "homepage": "https://github.com/shadybones/stately#readme",
+  "devDependencies": {
+    "fakery-js": "^0.1.1"
+  }
+}
